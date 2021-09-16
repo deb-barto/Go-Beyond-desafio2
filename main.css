@@ -1,0 +1,21 @@
+body{
+    background-image: radial-gradient(circle, rgb(66,33,99), rgb(29, 6, 129));
+}
+
+.container{
+    display:flex;
+}
+
+
+.card1{
+    width:50%;
+}
+
+.image-hero{
+    width:50%;
+    height:auto;
+    background-image: url('https://i.ibb.co/Cw7wfyQ/vendedores.png');
+    background-repeat:no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}

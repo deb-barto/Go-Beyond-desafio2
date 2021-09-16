@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Controle de Vendas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src='script.js'></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class=" card card1 mt-3">
+            <div class="card-header">
+                <h3 class='text-center'>Tabela de vendas do Mês</h3>
+            </div>
+            <div class="card-body">
+                <form action="#" id='form'>
+                    <div class="form-group">
+                        <label for="vendedor">Vendedor</label>
+                        <input type="text" id="vendedor" class='form-control'>
+                    </div>
+                    <div class="form-group">
+                        <label for="salario">Salário</label>
+                        <input type="text" id="salario" class='form-control'>
+                    </div>
+                    <div class="form-group">
+                        <label for="preçoProduto">Preço Produto</label>
+                        <input type="text" id="preçoProduto" class='form-control'>
+                    </div>
+                    <div class="form-group">
+                        <label for="vendas">Quantidade Vendas</label>
+                        <input type="text" id="vendas" class='form-control'>
+                    </div>
+
+                    <div class="form-group text-right">
+                        <input type="submit" value='Enviar' class='btn btn-success'>
+                    </div>
+                </form>
+
+            </div>
+            <div class="card mt-3">
+                <table class='table'>
+                    <tr>
+                        <th>Vendedor</th>
+                        <th>Vendas</th>
+                        <th>Preço</th>
+                        <th>Salário</th>
+                        <th>Deletar</th>
+                    </tr>
+                    <tbody id='tableHere'>
+    
+    
+                        <!-- <tr>
+                            <td>Débora B</td>
+                            <td>50.00</td>
+                            <td>100</td>
+                            <td>5525.00</td>
+                            <td><button class='btn btn-danger'>X</button></td>
+                        </tr>
+                        <tr>
+                            <td>Ygor Neves</td>
+                            <td>100.00</td>
+                            <td>100</td>
+                            <td>11.500</td>
+                            <td><button class='btn btn-danger'>X</button></td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+          </div>
+        <div class="image-hero">1</div>
+</body>
+
+</html>
